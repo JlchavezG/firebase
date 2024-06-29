@@ -19,3 +19,6 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+
+// https://firebase.google.com/docs/web/setup?hl=es-419#available-libraries

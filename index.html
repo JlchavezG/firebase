@@ -9,27 +9,21 @@
 </head>
 
 <body>
-
-
     <section class="ui segment loading" id="main-view">
-
         <div class="ui segment big" id="user-profile">
-
             <div class="ui card">
                 <div class="content">
                     <div class="header">Usa tu perfil</div>
                     <div class="meta" id="user-email">
                         someemail@gmail.com
                     </div>
-
                 </div>
                 <div class="extra content">
-                    <button class="ui button red tiny" id="logout-btn">Log out</button>
+                    <button class="ui button red tiny" id="logout-btn">Cerrar Sesion</button>
                 </div>
             </div>
         </div>
-
-        <!-- SIGN IN FROM -->
+        <!-- fORMULARIO INICIO SESION -->
         <div class="ui segment grey" id="login-form">
             <form class="ui big form ">
                 <div class="ui stacked segment">
@@ -41,7 +35,6 @@
                             <input type="email" placeholder="Email" id="login-email" />
                         </div>
                     </div>
-
                     <!-- PASSWORD -->
                     <div class="field">
                         <div class="ui left icon input big ">
@@ -54,18 +47,13 @@
             </form>
             <div class="ui message small big">Necesitas una cuenta? <a id="need-an-account-btn">Crea cuenta</a></div>
         </div>
-
         </div>
-
-
+        <!-- FORMULARIO DREAR CUENTA -->
         <div class="ui segment grey signup-form" id="signup-form">
-
             <form class="ui form big">
                 <div class="ui stacked segment">
-
                     <div class="ui error message" id="error-message">
                     </div>
-
                     <!-- EMAIL -->
                     <div class="field">
                         <div class="ui left icon input big">
@@ -73,7 +61,6 @@
                             <input type="email" placeholder="Email" id="email" />
                         </div>
                     </div>
-
                     <!-- PASSWORD -->
                     <div class="field">
                         <div class="ui left icon input big">
@@ -84,20 +71,10 @@
                     <button class="ui button green fluid big" id="signup-btn">Crea tu cuenta</button>
                 </div>
             </form>
-
             <div class="ui message small big">ya tienes cuenta? <a id="have-an-account-btn">Inicia Sesion</a></div>
         </div>
-
-
-
     </section>
-
-
-
-
-
-
-
+<!-- MANDAR LLAMAR SCRIPT JS PARA ACCIONES -->
     <script src="js/firebase.js" type="module"></script>
     <script src="js/app.js" type="module"></script>
 
